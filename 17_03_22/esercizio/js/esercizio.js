@@ -29,7 +29,7 @@ listFilm.innerHTML = movies.map((e) => {
 
 submit.addEventListener("click", () => {
     const search = movies.filter((element) =>
-        element.toLowerCase().includes(add.value));
+        element.toLowerCase().includes(add.valuetoLowerCase()));
     listFilm.innerHTML = search;
 });
 
