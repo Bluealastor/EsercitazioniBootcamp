@@ -22,27 +22,16 @@ const listFilm = document.querySelector("#listaFilm");
 const submit = document.querySelector("#submit");
 const add = document.querySelector("#add");
 
+listFilm.innerHTML = movies.map((e) => {
+    return `<li>${e}</li>`
+}).join(" ");;
 
-const film = () => {
-
-    const list = movies.filter((element) =>
-            element.toLowerCase().includes(add.value))
-        .join("")
-    listFilm.innerHTML = movies.map((e) => {
-        return `<li>${e}</li>`
-    }).join(" ");;
-}
-
-film()
 
 submit.addEventListener("click", () => {
     const search = movies.filter((element) =>
         element.toLowerCase().includes(add.value));
     listFilm.innerHTML = search;
 });
-
-
-
 
 // submit.addEventListener("click", () => {
 //     const search = movies.filter((element) =>
