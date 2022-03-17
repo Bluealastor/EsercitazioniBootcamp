@@ -6,10 +6,6 @@ Dato un array di film:
     [opzionalmente] stilare il tutto
 
 */
-
-
-
-
 const movies = [
     "Deadpool",
     "Dune",
@@ -42,9 +38,19 @@ film()
 submit.addEventListener("click", () => {
     const search = movies.filter((element) =>
         element.toLowerCase().includes(add.value));
-    // filmSearch.innerHTML = search;
-
     listFilm.innerHTML = search;
-
-
 });
+
+
+
+
+// submit.addEventListener("click", () => {
+//     const search = movies.filter((element) =>
+//         element.toLowerCase().includes(add.value));
+//     // filmSearch.innerHTML = search;
+
+//     listFilm.innerHTML = search + movies.map((e) => {
+//         return `
+//     <hr> <li>${e}</li>`;
+//     }).join(" ");
+// });
