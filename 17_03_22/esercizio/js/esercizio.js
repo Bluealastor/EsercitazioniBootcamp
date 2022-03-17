@@ -17,15 +17,17 @@ const movies = [
     "Sharknado (1,2,3,4,5 e 6)",
     "Blade Runner",
 ];
-
 const listFilm = document.querySelector("#listaFilm");
 const submit = document.querySelector("#submit");
 const add = document.querySelector("#add");
+
+// stampare su html la lista movies
 
 listFilm.innerHTML = movies.map((e) => {
     return `<li>${e}</li>`
 }).join(" ");;
 
+// evento click di ricerca 
 
 submit.addEventListener("click", () => {
     const search = movies.filter((element) =>
