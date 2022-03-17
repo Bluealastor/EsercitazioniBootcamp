@@ -31,6 +31,8 @@ submit.addEventListener("click", () => {
     const search = movies.filter((element) =>
         element.toLowerCase().includes(add.valuetoLowerCase()));
     listFilm.innerHTML = search;
+    if (search.length === 0) {
+        listFilm.innerHTML = "mancante"}
 });
 
 // submit.addEventListener("click", () => {
