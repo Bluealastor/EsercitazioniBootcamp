@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+div {
+    width: 200px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+#promtInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 300px;
+    padding: 30px;
+    gap: 5px;
+}
+
+#promtInput>input {
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box>div {
+    box-shadow: 0 0 6px 2px #0000002c;
+}

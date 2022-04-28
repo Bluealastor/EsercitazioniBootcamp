@@ -1,0 +1,57 @@
+/* 
+MAIN
+*/
+
+
+/* 
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 10px;
+    background-color: rosybrown;
+    text-align: center;
+    color: brown;
+} */
+
+
+/* 
+CARD
+*/
+
+
+/* 
+img {
+    height: 100px;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+.box {
+    width: 160px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+h2,
+p {
+    font-size: 13px;
+} */

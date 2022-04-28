@@ -1,0 +1,80 @@
+.modalBtn {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+.modalWrapper {
+    background-color: lightseagreen;
+    display: none;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.746);
+}
+
+.modalWrapper>img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    display: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.showModal {
+    display: flex;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.showModal .description {
+    display: none;
+}
+
+.showModal .movieYear {
+    display: none;
+}
+
+.showModal .activeBtn {
+    display: none;
+}
+
+.hideOverlay {
+    display: block;
+}
+
+img {
+    width: 200px;
+}
+
+.delImg {
+    width: 30px;
+}
+
+.wrapperMovies {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid;
+}
