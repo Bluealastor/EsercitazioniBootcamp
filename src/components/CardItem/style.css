@@ -1,0 +1,17 @@
+.CardItem {
+    padding: 10px 30px;
+    border: 2px solid;
+    width: 200px;
+
+  }
+  .CardItem button {
+    width: 50px;
+  }
+  
+  .genre{
+    list-style: none;
+  }
+
+  img {
+    width: 200px;
+  }
